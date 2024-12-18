@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .column {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+        }
+        .column li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: darkblue;
+        }
+        .image-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторна робота №3</h1>
+    <h2>Створення простої сторінки</h2>
+    <h3>10 порід собак з неймовірним інтелектом</h3>
+
+    <div class="image-container">
+        <img src="dog_image.jpg" alt="Три собаки" width="400">
+    </div>
+
+    <div class="container">
+        <!-- Перша колонка -->
+        <ul class="column">
+            <li><a href="https://uk.wikipedia.org/wiki/Бордер-колі" target="_blank">Бордер-коллі</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Пудель" target="_blank">Пудель</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Німецька_вівчарка" target="_blank">Німецька вівчарка</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Золотистий_ретривер" target="_blank">Золотистий ретривер</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Доберман" target="_blank">Доберман-пінчер</a></li>
+        </ul>
+        <!-- Друга колонка -->
+        <ul class="column">
+            <li><a href="https://uk.wikipedia.org/wiki/Колі" target="_blank">Шотландська вівчарка</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Лабрадор-ретривер" target="_blank">Лабрадор-ретривер</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Папільйон" target="_blank">Папільон</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Ротвейлер" target="_blank">Ротвейлер</a></li>
+            <li><a href="https://uk.wikipedia.org/wiki/Австралійська_вівчарка" target="_blank">Австралійська вівчарка</a></li>
+        </ul>
+    </div>
+</body>
+</html>
